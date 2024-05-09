@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -11,4 +11,9 @@ import { CommonModule } from '@angular/common';
 export class ButtonComponent {
   @Input() color: string = "#000";
   @Input() text: string = "Clique Aqui";
+  @Output() btnClick = new EventEmitter();
+
+  onClick() {
+    this.btnClick.emit();
+  }
 }
