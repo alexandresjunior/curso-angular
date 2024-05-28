@@ -9,8 +9,8 @@ import { CommonModule } from '@angular/common';
   styleUrl: './button.component.css'
 })
 export class ButtonComponent {
-  @Input() color: string = "#000";
-  @Input() text: string = "Clique Aqui";
+  @Input() color!: string;
+  @Input() text!: string;
   @Output() btnClick = new EventEmitter();
 
   onClick() {

@@ -1,4 +1,5 @@
 <header>
     <h1>Taskify</h1>
-    <app-button color="#1ED760" text="Adicionar" (btnClick)="toggleAdicionarTarefa()"></app-button>
+    <app-button color="{{showAddTask ? '#D9534F' : '#1ED760'}}" text="{{showAddTask ? 'Fechar' : 'Adicionar'}}"
+        (btnClick)="toggleAddTask()"></app-button>
 </header>

@@ -10,18 +10,18 @@
       "id": "2",
       "text": "Reunião na escola",
       "day": "6 de maio às 13h30",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": "3",
       "text": "Compras de alimentos",
       "day": "7 de maio às 12h30",
-      "reminder": true
+      "reminder": false
     },
     {
-      "id": "1be6",
+      "id": "2c31",
       "text": "Tarefa #1",
-      "day": "28 de maio às 15h43",
+      "day": "21 de maio às 16h10",
       "reminder": true
     }
   ]
