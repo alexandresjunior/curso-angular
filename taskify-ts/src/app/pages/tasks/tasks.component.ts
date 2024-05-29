@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { Task } from '../../interfaces/Task';
 import { CommonModule } from '@angular/common';
-import { TaskItemComponent } from '../task-item/task-item.component';
+import { TaskItemComponent } from '../../components/task-item/task-item.component';
 import { TaskService } from '../../services/task.service';
-import { AddTaskComponent } from '../add-task/add-task.component';
+import { AddTaskComponent } from '../../components/add-task/add-task.component';
 
 @Component({
   selector: 'app-tasks',
