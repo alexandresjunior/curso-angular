@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://github.com/alexandresjunior/curso-angular/assets/83607914/9414e2da-49d4-482d-9dca-0cd27a159c74" alt="Taskify com Angular" />
+</div>
+
 ## Descrição do Projeto
 Taskify é uma aplicação frontend simples desenvolvida em Angular para armazenamento de tarefas com dia e hora definidos. Este projeto visa proporcionar uma maneira fácil e organizada de gerenciar suas tarefas diárias.
 
