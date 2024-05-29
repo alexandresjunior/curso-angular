@@ -16,12 +16,6 @@
       "id": "3",
       "text": "Compras de alimentos",
       "day": "7 de maio às 12h30",
-      "reminder": false
-    },
-    {
-      "id": "2c31",
-      "text": "Tarefa #1",
-      "day": "21 de maio às 16h10",
       "reminder": true
     }
   ]
