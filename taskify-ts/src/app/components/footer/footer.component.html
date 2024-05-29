@@ -1,5 +1,5 @@
 <footer>
     <p>Copyright &copy; {{year}}</p>
-    <a *ngIf="hasRoute('/')" routerLink="/detalhes">Detalhes</a>
-    <a *ngIf="hasRoute('/detalhes')" routerLink="/">Voltar</a>
+    <a *ngIf="checkRoute('/')" routerLink="/detalhes">Detalhes</a>
+    <a *ngIf="checkRoute('/detalhes')" routerLink="/">Voltar</a>
 </footer>

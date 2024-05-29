@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { Router, RouterModule } from '@angular/router';
+import { RouterModule } from '@angular/router';
+import { UiService } from '../../services/ui.service';
 
 @Component({
   selector: 'app-footer',
@@ -12,9 +13,9 @@ import { Router, RouterModule } from '@angular/router';
 export class FooterComponent {
   year: number = new Date().getFullYear()
 
-  constructor(private router: Router) { }
+  constructor(private uiService: UiService) { }
 
-  hasRoute(router: string) {
-    return this.router.url === router;
+  checkRoute(route: string): boolean {
+    return this.uiService.hasRoute(route);
   }
 }
